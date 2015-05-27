@@ -107,7 +107,7 @@ $cdate = date("Y-m-d");
 $sql = "INSERT INTO $table (RegistrationName, RegistrationPass)
 VALUES ('Genry', 'uio789')";
 
-$query = "INSERT INTO $table RegistrationName ='".$_POST['name']."', RegistrationPass='".$_POST["pass"]."';
+/*$query = "INSERT INTO $table RegistrationName ='".$_POST['name']."', RegistrationPass='".$_POST["pass"]."';
  
 /* Выполняем запрос. Если произойдет ошибка - вывести ее. */
 mysql_query($sql) or die(mysql_error());
